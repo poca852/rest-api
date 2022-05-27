@@ -1,0 +1,21 @@
+{
+  "name": "proyect-personal-ecommerce",
+  "version": "0.0.1",
+  "description": "this is a personal project using nodejs, express, jwt, etc, side the backend, and the side the front using ReactJs with redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "david cuspoca",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "google-auth-library": "^8.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4"
+  }
+}
