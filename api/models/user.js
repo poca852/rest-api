@@ -29,11 +29,16 @@ const UserModel = Schema({
 
    img: {
       type: String
+   },
+
+   idRol: {
+      type: Schema.Types.ObjectId,
+      ref: "Rol"
    }
 })
 
 UserModel.methods.toJSON = function(){
-   const { __v, _id, ...user } = this.toObject();
+   const { __v, _id, password, ...user } = this.toObject();
    user.id = _id;
    return user;
 };
