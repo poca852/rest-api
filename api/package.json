@@ -4,7 +4,9 @@
   "description": "this is a personal project using nodejs, express, jwt, etc, side the backend, and the side the front using ReactJs with redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "david cuspoca",
   "license": "ISC",
